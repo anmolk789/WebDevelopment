@@ -1,0 +1,74 @@
+TRAVEL RESERVATION FORM
+
+Create a travel reservation form as indicated in the snapshot below:
+
+The specifications that needs to be adhered to are:
+
+1. Heading of type <h1> should be present with value "Travel Reservation Form".
+
+2. Heading of type <h3> should be present with the value "*" denotes mandatory.
+
+ 
+
+S.NO
+
+Element Name
+
+Constraints
+
+1
+
+passengername
+
+ It should be an input field with the type as 'text' and the default value (placeholder) should be  “Name” .
+
+2
+
+mobile
+
+Is a mandatory input field.  The default value (placeholder) should be  “*Mobile Number” . Do not use text field or number field instead use HTML5 feature 'tel' field type.
+
+3
+
+mailId
+
+It is a mandatory input field. The default text (placeholder) is “*Email ID”.  Use the input field type as  HTML5 Feature 'email'.
+
+4
+
+travelmonth
+
+This should be a 'select' field which should contains a list of dates in the format “MonYYYY” i.e: Aug2018. “Month of Travel” should be the default value. Provide 9 values excluding the default value.
+
+5
+
+package
+
+It is a mandatory 'select' field. “*Origin” should be displayed by default.
+
+6
+
+destination
+
+It should be an input field with type as 'text' and the text “Destination” should be displayed by default (placeholder).
+
+7
+
+submit
+
+It should be an input field for the submit button.  Set the type of the field as  'submit' and the value as  “Get A Call”.
+
+8
+
+clear
+
+It should be an input field for the reset/clear button.  Set the type of the field as 'reset' and the value as  “Clear”.
+
+ 
+
+The options for the 'select' component with the name “package” is as follows: GOA,MUMBAI,KERALA,TAMILNADU,KOLKATA.
+
+Use the same values while coding.
+
+
+
