@@ -1,0 +1,155 @@
+Book A Show - Online Ticket Booking
+
+
+“BOOK A SHOW” is an online movie ticket system to book tickets for current and upcoming movie releases across the city in India. The user can select the movie and preferred circle while booking the ticket and the system will generate a ticket to the user.
+
+As an HTML5 developer, you have been provided with the task of developing one module of this website. This module should contain the below pages:
+
+1.       Ticket page – This will contain details that will be entered by the user to book movie tickets
+
+Book Ticket Page:
+
+
+
+S.No
+
+Label Name
+
+Element Name
+
+Description
+
+Limitation/Constraints
+
+1
+
+Name
+
+name
+
+Enter the name
+
+Is a mandatory field, should be validated. Should not allow any special characters other than space. Do not use java script, use HTML 5 features.
+
+2
+
+Movie Name
+
+moviename
+
+An auto-complete feature should be available to the user for the following options.
+
+Irada, Rangoon, Logan, Fist Fight. (Name of the auto-complete feature should be “movies”)
+
+Do not use combo boxes, rather it should be done using <input> element
+
+3
+
+Circle
+
+circle
+
+An auto-complete feature should be available to the user for the following options.
+
+Silver, Gold, Platinum. (Name of the auto-complete feature should be “circles”)
+
+Do not use combo boxes, rather it should be done using <input> element
+
+4
+
+Phone no
+
+phone
+
+The text “Enter Mobile # here” should be displayed by default in the text box. When the user starts entering the number, this text should disappear.
+
+Should validate for numeric digits. Should contain 10 digits. Do not use java script use HTML 5 features
+
+5
+
+Show date and time
+
+showdate
+
+Date picker to choose the date and time of the show.
+
+Should NOT use javascript to create date picker.
+
+6
+
+No of Adults
+
+tickets
+
+Choose the number of passenger.
+
+Minimum number that can be selected should be 1 and max number that can be selected should be 10. Do not use java script use HTML 5 features
+
+7
+
+No of childrens
+
+childrens
+
+Choose the number of children’s.
+
+Minimum number that can be selected should be 1 and max number that can be selected should be 5. Do not use java script use HTML 5 features.
+
+8
+
+Book My Show
+
+Book My Show
+
+On clicking this submit button, validations should be performed and the ticket price should be calculated and displayed.
+
+ 
+
+9
+
+Reset
+
+reset
+
+Button with Reset as label. On clicking this button, all fields should be reset
+
+ 
+
+
+
+All the fields are mandatory (Should be done using HTML5).
+
+Apply the following styles :
+
+S.No
+
+Element Name
+
+CSS
+
+1
+
+table
+
+font-family:monospace;
+
+font-weight: bold;
+
+2
+
+h1
+
+color:#0000FF;
+
+font-family:monospace;
+
+text-align:center;
+
+
+The body background color should be #00CED1.
+The div tag is used to show the result with the id "result" and text be in bold and the color should be #0000FF 
+The text color should be #0C1584.
+
+Note: Do not use Inline CSS
+
+Note:  Correctly specify the element name, as given in the requirement. All your html tags should be given in lower case.
