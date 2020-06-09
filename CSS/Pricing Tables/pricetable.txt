@@ -1,0 +1,52 @@
+Pricing Tables
+
+
+Create a three column pricing table as shown in the image below. 
+
+The columns must be created using <div> with id values 1,2 and 3. Each column must have an <li> tag with column headings Basic, Pro and Premium.
+
+Each <ul> within the <div> must have a class with value price. The Sign Up button must have a css class of value button.
+
+The web page should have the following CSS
+
+Script tag
+
+Constraints
+
+.columns
+
+    float: left;
+
+    width: 33.3%;
+
+    padding: 8px;
+
+.price
+
+    list-style-type: none;
+
+    border: 1px solid #eee;
+
+    margin: 0;
+
+    padding: 0;
+
+    -webkit-transition: 0.3s;
+
+    transition: 0.3s;
+
+.button
+
+    background-color: #4CAF50;
+
+    border: none;
+
+    color: white;
+
+    padding: 10px 25px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    font-size: 18px;
