@@ -1,0 +1,94 @@
+WebPage Creation
+
+
+Create a webpage as shown below
+
+
+
+
+
+
+
+The CSS Constraints to be applied are
+
+The web page should have
+
+Tag
+
+Id
+
+Constraints
+
+section
+
+home
+
+Should have a solid border style with margins top, bottom, left and right as 15px,10px,15%,10% respectively.
+
+The height and width of the section must be 550px and 900px respectively.
+
+The background color must be #D9D9D9
+
+header
+
+ 
+
+Text inside header - Web Programming Learning
+
+The header should be aligned center with the color #990000 and with the size of 25px
+
+p
+
+ 
+
+Text inside paragraph tag - HOME MATERIALS COMPETITION PASTYEARS ABOUT
+
+The paragraph text should be indented with 8% ,each word must be spaced with 40px and color #FFFFFF.
+
+The paragraph tag should have a background color #990000 with left and right margin of 90px both.
+
+section
+
+intro
+
+Section tag should have the following tags <h2> , <h3>, <table>
+
+The section tag should have a solid border style with margins top, bottom, left and right as 10px,10px,15%,15% respectively and with the background color #525252.
+
+The height and width of the section must be 400px and 600px respectively.
+
+h2
+
+ 
+
+The text inside h2 tag – LEARN TO LEAD
+
+The header tag must be center aligned with the color #FFFFFF and with the font size xx-large
+
+h3
+
+ 
+
+The text inside h3 tag - Cascading Style Sheet
+
+With a margin for the top as 10% , the text to be aligned to center and the font size xx-large and family “Arimo” with the color of #FFFFFF
+
+table
+
+ 
+
+Should have got 4 columns with the text as Comprehensive curriculum, Insightful Guest Lectures, interaction with sponsors, $30,000+in Total Prizes.
+
+The text should have color #FFFFFF and family “Arimo”.
+
+The table tag must have top and left margins as 10px
+
+footer
+
+ 
+
+The tag should be center aligned with color #990000
+
+
+
+Note:  Correctly specify the element name, as given in the requirement. All your html tags should be given in lower case.
