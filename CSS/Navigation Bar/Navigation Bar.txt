@@ -1,0 +1,62 @@
+Navigation Bar using CSS3
+
+
+
+
+Create a page that has a navigation bar created using CSS3. A snapshot of the final page display is shown below
+
+use <nav><li><ul> tags to complete the page. Include appropriate CSS3 to get the desired output. The products has to be automatically shown when mouse hovered on products title in the navigation bar. Include appropriate color changes as indicated in the snapshot.
+
+The CSS3 scheme is given below
+
+Script tag
+
+Constraints
+
+nav
+
+display: block;
+
+position: absolute;
+
+top: 0;
+
+width: 100%;
+
+background-color: green;
+
+li
+
+list-style-type: none;
+
+display: inline;
+
+margin-right: 20px;
+
+font-size:25px
+
+ 
+
+li:hover ul {display: block; position: absolute; left: 200px; background-color: green;margin: 0;}
+
+li:hover ul li a:link{display: block;margin-left:-30px;}
+
+a
+
+a:link
+
+   color: #fff;
+
+   text-decoration: none;
+
+a:hover
+
+   color: orange;
+
+   text-decoration: none;
+
+ 
+
+
+
+
