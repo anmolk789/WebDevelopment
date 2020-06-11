@@ -1,0 +1,21 @@
+<!-- This is a partial code. Implement the essential codes required --> 
+<html>
+    <body>
+        Enter word/sentence to check for palindrome:<input type="text" name="palin" id="palin"><br>
+        <input type="submit" name="palinbtn" value="Check Palindrome" id="submit">
+        <script type="text/javascript">
+        document.getElementById('submit').onclick=function Palindrome(){
+            var string1=document.getElementById('palin').value;
+            var filteredString=string1.replace(/\s+/g,"").toLowerCase();
+            var arr=filteredString.split("");
+            var result=arr.reverse();
+            var join=result.join("");
+            if(join == filteredString){
+                alert("The entry is a palindrome.");
+            }else{
+                alert("The entry is not a palindrome.");
+            }
+        }
+        </script>
+    </body>
+</html>
