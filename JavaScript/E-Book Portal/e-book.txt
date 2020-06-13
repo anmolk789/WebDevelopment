@@ -1,0 +1,133 @@
+E-BOOK Portal
+
+
+E-Book Portal wanted to give grand discount to two types of Books – Comics and Science. Discount is given based on the number of books (bulk purchase), the customer order for that category.
+
+Label Name
+
+Component  Name
+
+Description
+
+Customer Name
+
+customerName
+
+To enter the name of the customer. “Enter the Customer Name” text should be displayed by default in the text box. When the user starts entering the name, this text should disappear.
+
+Mobile Number
+
+customerMobileNumber
+
+To enter the mobile number. “Enter the Mobile Number” text should be displayed by default in the text box. When the user starts entering the value, this text should disappear.
+
+Book Category
+
+bookCategory
+
+Radio button to choose either Science or Comics
+
+Type
+
+bookType
+
+An auto-complete feature should be available to the user for the following options.
+
+Weekly,Monthly,Fortnightly
+
+(Name of the auto-complete feature should be “bookTypes”)
+
+ 
+
+No of Books Required
+
+bookCount
+
+A Slider control with min value 1 and max value 500. By default the value should be 1. For this component set id attribute value as ‘bookval’.
+
+Calculate Total Price
+
+submit
+
+ 
+
+Reset
+
+Reset
+
+On clicking this button, all fields should be reset.
+
+
+ 
+
+RULES/CONSTRAINTS: All validations should be based on HTML 5(Do not use Javascript)
+
+·         The component name should be same as given above.
+
+·         All fields are mandatory.
+
+·         Customer Name should contain only alphabets and space.
+
+·         Customer Mobile Number should be of 10 digits and should start with 9/8.
+
+ 
+
+Use JavaScript for doing the below calculation:
+
+Customer on entering the valid values and clicking the submit button the total price  has to be calculated based on the below given discount rate chart and displayed as “Total Price is: ” …..  in a div tag. The div tag should have an id attribute with value as “result”.
+
+(Total books * perbookCost) - discountpercentage
+
+Note: Use getElementsByName or getElementById function to retrieve the values
+
+Discount Rate chart
+
+Book Type
+
+Per Book Cost
+
+Discount Rate(in percentage)
+
+Science
+
+400
+
+ 5% if total book count <=250
+
+Science
+
+400
+
+ 7% if total book count > 250
+
+Comics
+
+300
+
+ 3% if total book count <=250
+
+Comics
+
+300
+
+ 4% if total book count > 250
+
+ 
+
+Sample Webpage:
+
+
+
+The discount rate chart table should be designed as shown in the above sample webpage.
+
+
+
+
+
+Styles to be applied: (Do not use Inline CSS)
+
+1.       Body color should be “#E6E6FA”.
+
+2.       For the discount rate table the border style should be solid and it should be display on the right side (use float property) of the webpage. (The table should have the id attribute with the value as “discounttable”).
+
+3.       The heading should be done using <h1> tag the text color should be “#800080”, style should be “cursive” and it should be aligned to center of the webpage.
