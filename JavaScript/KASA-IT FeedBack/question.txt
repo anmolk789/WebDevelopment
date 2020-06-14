@@ -1,0 +1,171 @@
+KASA IT Finishing school is conducting Corporate and initial training program for many companies and colleges.  Feedback is provided by the participants once the training is over.  The organization wants to automate the Feedback received.  Initially they plan to automate the feedback received from College. 
+
+To facilitate this requirement create a Web page “College Training Feedback Form” that has the below fields. 
+
+Note  :  All validations should be based on HTML 5 (Do not use Javascript)          
+
+ 
+
+Label Name
+
+Component  Name
+
+Description
+
+Participant Name
+
+participantName
+
+To enter the name of the participant.
+
+The name should accept only alphabets and space.
+
+The text “Enter your name” should be displayed by default in the text box. When the user starts entering the value, this text should disappear.
+
+College Name
+
+collegeName
+
+To enter the college name of the participant.
+
+Participant Address
+
+participantAddress
+
+To enter the address of the participant. 
+
+Provide the correct tag and attribute to create a text area with  5 rows and 20 columns.
+
+Gender
+
+gender
+
+Select the gender. 
+
+Provide the correct input type to make this component a radio button.
+
+Email ID
+
+email
+
+To enter the email of the participant.
+
+This field should accept a valid email.
+
+Mobile Number
+
+mobileNumber
+
+To enter the mobile number.
+
+The mobile number should accept only digits.  It should contain 10 digits and start with 9/8/7.
+
+Trainer’s Name
+
+trainerName
+
+To enter the trainer’s name
+
+Course Name
+
+courseName
+
+To enter the course name for which the feedback is provided
+
+Course Completion date
+
+dateofcompletion
+
+To select the date of completion of the course
+
+Trainer’s Feedback
+
+trainerFeedback
+
+An auto-complete feature should be available to the user for the following options.
+
+Excellent, Very Good, Good, Average, Below Average
+
+(Name of the auto-complete feature should be “feedback”).
+
+Fill the tag to implement the autocomplete feature.
+
+Submit Feedback
+
+submit
+
+ 
+
+Clear
+
+Reset
+
+Reset Button.  On clicking this button, all fields should be reset.
+
+Provide the input type for this component.
+
+ 
+
+Use JavaScript for doing the below calculation:
+
+ 
+
+When the participant enters the valid values and clicks the “Submit Feedback” button the feedback for the trainer has to be displayed based on the below assumptions :
+
+ 
+
+Feedback
+
+Feedback Rate
+
+Excellent
+
+5
+
+Very Good
+
+4
+
+Good
+
+3
+
+Average
+
+2
+
+Below Average
+
+1
+
+ 
+
+
+
+The result is displayed as  “Feedback rating of  trainerName  is feedbackRate / 5.  Given by participant – participantName”   in a div tag   with  id  “result”.  
+
+ 
+
+Note: Use getElementsByName or getElementById function to retrieve the values
+
+ 
+
+Sample Webpage:
+
+
+
+On providing the values the web page should look as follows :
+
+
+
+
+
+Styles to be applied: (Do not use Inline CSS)
+
+1.       Body color should be “#FFAACC”.
+
+2.       The heading should be done using <h1> tag the text color should be “#770080”, font should be “Courier New”, style should be “italics” and it should be aligned to center of the webpage.
+
+3.       The result should be bold and color of the text should be #770080.
+
+
