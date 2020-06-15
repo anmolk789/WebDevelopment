@@ -1,0 +1,6 @@
+Check Box Using JQuery
+
+
+Create a page in a file named jqcheckbox.html where in to check whether check box is selected or checked. Indicate the number of check boxes checked. 
+Use a <div>  tag with id as "result" to display the output.
+Jquery Library – https://code.jquery.com/jquery-1.10.2.js
