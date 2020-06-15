@@ -1,0 +1,14 @@
+Drag an Object
+
+
+Emily, a student of AI academy has a project to design a webpage to arrange suitable items as a grid. 
+Before beginning the project she wants to know how to drag an object when the user clicks on it. Create a webpage and implement the dragable feature to drag an object wherever the user wants.
+Apply the following constraints:
+
+<div> tag with id as draggable
+<img> tag with the image provided, assume the image is in the same directory with the name "fish.jpg"
+<p> tag with the text "Drag me around"
+Use the following JQuery Libraries:
+
+https://code.jquery.com/jquery-1.10.2.js
+https://code.jquery.com/ui/1.10.2/jquery-ui.js
