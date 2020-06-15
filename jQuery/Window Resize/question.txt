@@ -1,0 +1,15 @@
+Window Resize
+
+
+Create a web page which has a function to calculate whenever the window gets resized. When the user resizes the webpage,the count will be increased automatically. Display the total number of times that the user resize the page.
+
+Refer the Sample Webpage below
+
+
+
+Use 2 paragraph tags to display the output
+
+First <p> tag with id "resize"
+For Second <p> tag use id as " test "
+Include the JQuery Library - https://code.jquery.com/jquery-1.10.2.js
+
