@@ -1,0 +1,6 @@
+Customer Data
+Create a web page which contains two text boxes to get the name and email address of the customers. When you click ‘Add Customer Details ‘button, the entered data get append to the table below that and when you click the ‘Delete Customer Details’ button, the selected row/rows in the table (using check box) should get deleted dynamically using jQuery. 
+
+Hint: You can use the jQuery .append() method to append or add rows inside a HTML table. Similarly, you can use the .remove() method to remove or delete table rows as well as all everything inside it from the DOM dynamically with jQuery.
+
+Note:  Do not alter the given 'customer.html' file.  Write your jQuery code in the file 'customer.js'
